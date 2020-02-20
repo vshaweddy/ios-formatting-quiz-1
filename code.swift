@@ -54,7 +54,7 @@ class PeriodicTableViewController: UIViewController {
     }
     
     // This next method was added by a new member of the team. Identify the 10 formatting, naming, and logic issues below:
-    @IBAction func chooseRandomElement(_ sender: Any){
+    @IBAction func chooseRandomElement(_ sender: Any) {
         let ranElem = elementsController.elements.randomElement()
         
         var chosenElementView:ElementView!
